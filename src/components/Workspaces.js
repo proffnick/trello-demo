@@ -208,6 +208,7 @@ export  const Workspaces = () => {
                     workspace={workspace}
                     constants={constants} 
                     user={user} />:
+                <>
                 <div className='col-8 mx-auto p-5'>
                     <h5 className='text-muted text-center mb-3'>{constants.noWorkspace}</h5>
                     <div className='text-center'>
@@ -216,8 +217,10 @@ export  const Workspaces = () => {
                         </button>
                     </div>
                 </div>
+                <Video />
+                </>
             }
-            <Video />
+            
             <InfoBox
                 Content={modal.content} 
                 title={modal.title}
