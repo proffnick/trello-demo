@@ -591,8 +591,15 @@ export const PrintColumns = ({ workspace, board }) => {
     const setDragOverElement = (element) => {
         draggedChildCard.current = element;
     }
+
+    
     const toggleReceiving = () => {
         setIsReceiving(!isReceiving);
+        setTimeout(() => {
+            if(isReceiving){
+                setIsReceiving(false);   
+            }
+        }, 3000)
     }
 
 
