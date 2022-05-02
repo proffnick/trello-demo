@@ -1,4 +1,4 @@
-### Getting Started with the Trello Clone App
+# Getting Started with the Trello Clone App
 
 
 ## Instructions for installation and usage
@@ -6,12 +6,12 @@
 2. Clone the project here
 [https://github.com/proffnick/trello-demo.git](https://github.com/proffnick/trello-demo.git) to your favorite working space
 
-# `git clone https://github.com/proffnick/trello-demo.git trello` Use any name of your choice in place of trello.
+#### `git clone https://github.com/proffnick/trello-demo.git trello` Use any name of your choice in place of trello.
 
 3. Navigate to the folder to check if everything is okay
 4. Open up the project folder in your terminal [command prompt]
 5. Run npm Install
-##    `npm install` to install all the dependencies
+###    `npm install` to install all the dependencies
 6. After the npm installation, still in your terminal hit
 # `npm start`
 
@@ -19,7 +19,7 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 
-## What could have added to the project if it were a real application
+### What could have added to the project if it were a real application
 1. Ability to create multiple workspace
 2. Ability to create multiple working boards
 3. Invite users to work space
