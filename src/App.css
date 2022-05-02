@@ -1,38 +1,60 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.workspace{
+  height: auto;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-bottom: 80px;
+}
+.board-bg{
+  background-color: #f0f2f5;
 }
 
-.App-link {
-  color: #61dafb;
+.isDragging{
+  background-color:#00000041 !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.indicateEntering{
+  background-color: rgba(176, 222, 255, 0.878) !important;
+}
+
+.isreceiving{
+  background-color: #dedede !important;
+  min-height: 173px;
+}
+
+.main-board{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px)
+}
+.btn-check:active+.btn-light:focus, .btn-check:checked+.btn-light:focus, .btn-light.active:focus, .btn-light:active:focus, .show>.btn-light.dropdown-toggle:focus{
+  box-shadow: none !important;
+}
+
+.btn-check:focus+.btn-light, .btn-light:focus{
+  border-color: none;
+  box-shadow: none !important;
+}
+.save-edit-action{
+  display: none;
+  transition: all 2s ease-in;
+}
+.trello-column:hover .save-edit-action{
+  display: inline !important;
+}
+.draggable-card:not(:last-of-type){
+  margin-bottom: 1em;
+}
+.draggable-card .card-footer{
+  font-size:smaller;
+}
+.draggable{
+  cursor: move !important;
+  top: 0;
+  right: 0
+}
+.container-fluid{
+  min-height: 600px !important;
+  height: auto !important;
+  
 }
