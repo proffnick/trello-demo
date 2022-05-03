@@ -11,9 +11,9 @@
 3. Navigate to the folder to check if everything is okay
 4. Open up the project folder in your terminal [command prompt]
 5. Run npm Install
-###    `npm install` to install all the dependencies
-6. After the npm installation, still in your terminal hit
-# `npm start`
+### `npm install` to install all the dependencies
+6. After the npm installation, still in your terminal run
+### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -41,13 +41,13 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 8. State is managed by react context hook in combination with the useReducer hook
 
 ### Features
--user can create woekspace
--user can create a working board
--user can create task in columns
--user can create cards in columns
--user can edit both cards and columns
--user can move cards around in columns
--user can move columns around 
+1. user can create woekspace
+2. user can create a working board
+3. user can create task in columns
+4. user can create cards in columns
+5. user can edit both cards and columns
+6. user can move cards around in columns
+7. user can move columns around 
 
 For any challenge please contact me at proffnick1@gmail.com | +2348133191426
 
