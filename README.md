@@ -4,9 +4,10 @@
 ## Instructions for installation and usage
 1. You must have node.js installed on your computer to be able to run react
 2. Clone the project here
-[https://github.com/proffnick/trello-demo.git](https://github.com/proffnick/trello-demo.git) to your favorite working space
+[https://github.com/proffnick/trello-demo.git](https://github.com/proffnick/trello-demo.git) into your favorite working space
 
-#### `git clone https://github.com/proffnick/trello-demo.git trello` Use any name of your choice in place of trello.
+### `git clone https://github.com/proffnick/trello-demo.git trello` 
+Use any name of your choice in place of trello.
 
 3. Navigate to the folder to check if everything is okay
 4. Open up the project folder in your terminal [command prompt]
