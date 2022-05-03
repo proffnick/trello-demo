@@ -12,7 +12,9 @@ Use any name of your choice in place of trello.
 3. Navigate to the folder to check if everything is okay
 4. Open up the project folder in your terminal [command prompt]
 5. Run npm Install
-### `npm install` to install all the dependencies
+### `npm install` 
+To install all the dependencies
+
 6. After the npm installation, still in your terminal run
 ### `npm start`
 
